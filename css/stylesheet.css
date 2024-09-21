@@ -1,0 +1,22 @@
+.titulo {
+    font-size: 24px;
+    text-align: center;
+}
+.titulo .texto-largo {
+    display: block;
+}
+.titulo .texto-corto {
+    display: none;
+    font-family: "Arial Narrow", Arial, sans-serif;
+  color: rgb(218, 218, 44);
+}
+@media (max-width: 600px) {
+    .titulo .texto-largo {
+        display: none;
+    }
+    .titulo .texto-corto {
+        display: block;
+        font-size: 18px; /* Ajusta el tamaño de fuente si es necesario */
+    }
+}
+
